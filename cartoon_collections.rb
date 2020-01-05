@@ -15,9 +15,8 @@ end
 def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  res = nil
   cheese_types.each do |type|
-    resarray.include?(type)? res =type : res 
-    break if 
+    return cheese if snacks.include?(cheese)
   end
+  return nil
 end
