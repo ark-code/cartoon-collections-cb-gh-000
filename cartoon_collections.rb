@@ -8,8 +8,8 @@ def summon_captain_planet(array)
   array.map {|i| "#{i.capitalize}!"}
 end
 
-def long_planeteer_calls(array)
-  array.find{ |e| if e.size > 4 }
+def long_planeteer_calls(words)
+  words.find {|word| word.length > 4} ? true : false
 end
 
 def find_the_cheese# code an argument here
